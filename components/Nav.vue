@@ -12,13 +12,6 @@
             aria-expanded="false"
           >
             <span class="sr-only">Open main menu</span>
-            <!--
-            Icon when menu is closed.
-
-            Heroicon name: outline/menu
-
-            Menu open: "hidden", Menu closed: "block"
-          -->
             <svg
               class="block h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -34,13 +27,6 @@
                 d="M4 6h16M4 12h16M4 18h16"
               />
             </svg>
-            <!--
-            Icon when menu is open.
-
-            Heroicon name: outline/x
-
-            Menu open: "block", Menu closed: "hidden"
-          -->
             <svg
               class="hidden h-6 w-6"
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +61,6 @@
           </div>
           <div class="hidden sm:block sm:ml-6">
             <div class="flex space-x-4">
-              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
               <a
                 href="/restaurants"
                 class="bg-gray-900 text-white px-3 py-2 rounded-md text-sm font-medium"
@@ -88,18 +73,6 @@
                 class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                 >Home</a
               >
-
-              <!-- <a
-                href="#"
-                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Projects</a
-              >
-
-              <a
-                href="#"
-                class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                >Calendar</a
-              > -->
             </div>
           </div>
         </div>
@@ -148,16 +121,6 @@
               </button>
             </div>
 
-            <!--
-            Dropdown menu, show/hide based on menu state.
-
-            Entering: "transition ease-out duration-100"
-              From: "transform opacity-0 scale-95"
-              To: "transform opacity-100 scale-100"
-            Leaving: "transition ease-in duration-75"
-              From: "transform opacity-100 scale-100"
-              To: "transform opacity-0 scale-95"
-          -->
             <div
               class="hidden origin-top-right absolute right-0 mt-2 w-48 rounded-md shadow-lg py-1 bg-white ring-1 ring-black ring-opacity-5 focus:outline-none"
               role="menu"
@@ -165,7 +128,6 @@
               aria-labelledby="user-menu-button"
               tabindex="-1"
             >
-              <!-- Active: "bg-gray-100", Not Active: "" -->
               <a
                 href="#"
                 class="block px-4 py-2 text-sm text-gray-700"
@@ -199,7 +161,6 @@
     <!-- Mobile menu, show/hide based on menu state. -->
     <div class="sm:hidden" id="mobile-menu">
       <div class="px-2 pt-2 pb-3 space-y-1">
-        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <a
           href="/restaurants"
           class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
@@ -212,18 +173,6 @@
           class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
           >Home</a
         >
-
-        <!-- <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Projects</a
-        >
-
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Calendar</a
-        > -->
       </div>
     </div>
   </nav>
